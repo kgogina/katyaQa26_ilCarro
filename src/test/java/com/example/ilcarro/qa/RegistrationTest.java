@@ -22,7 +22,7 @@ public class RegistrationTest {
     public void testRegistration (){
         //open reg Form
         wd.findElement(By.cssSelector("[href='/signup']")).click();
-        
+
         //wd.findElement(By.cssSelector("[href='/car']")).click();
         wd.findElement(By.id("first_name")).click();
         wd.findElement(By.id("first_name")).clear();
