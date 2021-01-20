@@ -1,44 +1,49 @@
 package com.example.ilcarro.qa;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class RegistrationTest {
-    WebDriver wd;
+public class RegistrationTest extends TestBase{
 
 
-    @BeforeMethod
-    public void setUp (){
-        wd = new ChromeDriver();
-    wd.get("https://ilcarro-dev-v1.firebaseapp.com/");
+    @Test
+    public void testRegistration() throws InterruptedException {
+        openRegForm();
+        String email = "Ro+"+System.currentTimeMillis()+"@gmail.com";
+        fillRegistrationForm("Katya", "Test", email, "Aa1234567");
+        selectCheckBox();
+        pause(3000);
+        clickYallaButtom();
+        pause(2000);
+
+        Assert.assertFalse(isRegistrationFromPresent());
+
+    }
+    @Test
+    public void testRegistration2() throws InterruptedException {
+        openRegForm();
+        String email = "Ro1+"+System.currentTimeMillis()+"@yahoo.com";
+        fillRegistrationForm("Melina", "Rahmaninov", email, "Aa7654321");
+        selectCheckBox();
+        pause(2000);
+        clickYallaButtom();
+        pause(3000);
+
+        Assert.assertFalse(isRegistrationFromPresent());
+
     }
 
     @Test
-    public void testRegistration (){
-        //open reg Form
-        wd.findElement(By.cssSelector("[href='/signup']")).click();
+    public void testRegistrationNegative() throws InterruptedException {
+        openRegForm();
+        String email = "Ro+"+System.currentTimeMillis();
+        fillRegistrationForm("Katya", "Test", email, "Aa1234567");
+        selectCheckBox();
+        pause(2000);
+        clickYallaButtom();
+        pause(3000);
 
-        //wd.findElement(By.cssSelector("[href='/car']")).click();
-        wd.findElement(By.id("first_name")).click();
-        wd.findElement(By.id("first_name")).clear();
-        wd.findElement(By.id("first_name")).sendKeys("Katya");
-
-
-
-        //fill RegForm
-        wd.findElement(By.name("address")).click();
-
-
-
-    }
-
-    @AfterMethod
-    public void tearDown (){
+        Assert.assertTrue(isRegistrationFromPresent());
 
     }
 
