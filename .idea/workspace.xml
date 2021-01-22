@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc6445f9-7e67-4126-874e-8747dba59626" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/LogoutTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/katyaQa26_ilCarro.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/ApplicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/HelperBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/UserHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/LogoutTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +40,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
-  <component name="RunManager" selected="Gradle.LogoutTest.logoutTest">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.ilcarro.qa" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.LoginTest.testLogin">
     <configuration name="LoginTest.testLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -153,9 +158,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LogoutTest.logoutTest" />
         <item itemvalue="Gradle.LoginTest.testLogin" />
         <item itemvalue="Gradle.RegistrationTest.testRegistration" />
+        <item itemvalue="Gradle.LogoutTest.logoutTest" />
         <item itemvalue="Gradle.RegistrationTest.testRegistrationNegative" />
         <item itemvalue="Gradle.RegistrationTest.testRegistration2" />
       </list>
