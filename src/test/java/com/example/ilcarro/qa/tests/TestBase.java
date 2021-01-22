@@ -1,5 +1,6 @@
-package com.example.ilcarro.qa;
+package com.example.ilcarro.qa.tests;
 
+import com.example.ilcarro.qa.application.ApplicationManager;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 

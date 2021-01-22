@@ -1,4 +1,4 @@
-package com.example.ilcarro.qa;
+package com.example.ilcarro.qa.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
