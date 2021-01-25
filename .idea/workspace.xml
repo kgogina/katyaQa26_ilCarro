@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc6445f9-7e67-4126-874e-8747dba59626" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/application/CarHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/application/CarHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/CarCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/CarCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/application/UserHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/application/UserHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/RegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +50,7 @@
       <recent name="com.example.ilcarro.qa" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CarCreationTests.testCarCreation">
+  <component name="RunManager" selected="Gradle.LoginTest.testLogin">
     <configuration name="CarCreationTests.testCarCreation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -74,7 +77,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.example.ilcarro.qa.LoginTest.testLogin&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.example.ilcarro.qa.tests.LoginTest.testLogin&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -155,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LoginTest.testLogin" />
         <item itemvalue="Gradle.CarCreationTests.testCarCreation" />
         <item itemvalue="Gradle.LoginTest.testLogin" />
         <item itemvalue="Gradle.RegistrationTest.testRegistration" />
         <item itemvalue="Gradle.LogoutTest.logoutTest" />
-        <item itemvalue="Gradle.RegistrationTest.testRegistrationNegative" />
       </list>
     </recent_temporary>
   </component>
