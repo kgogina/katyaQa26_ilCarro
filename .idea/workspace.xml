@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc6445f9-7e67-4126-874e-8747dba59626" name="Default Changelist" comment="" />
+    <list default="true" id="dc6445f9-7e67-4126-874e-8747dba59626" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/application/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/application/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/TestBase.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +48,7 @@
       <recent name="com.example.ilcarro.qa" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.katyaQa26_ilCarro [regression]">
+  <component name="RunManager" selected="Gradle.Tests in 'katyaQa26_ilCarro.test'">
     <configuration name="CarCreationTests.testCarCreation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -86,12 +91,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTest.testRegistrationNegative" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'com.example.ilcarro.qa.tests'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.example.ilcarro.qa.RegistrationTest.testRegistrationNegative&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.example.ilcarro.qa.tests.*&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -107,12 +112,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'com.example.ilcarro.qa.tests'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'katyaQa26_ilCarro.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.example.ilcarro.qa.tests.*&quot;" />
+        <option name="scriptParameters" value="--tests *" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -151,10 +156,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.katyaQa26_ilCarro [regression]" />
+        <item itemvalue="Gradle.Tests in 'katyaQa26_ilCarro.test'" />
         <item itemvalue="Gradle.Tests in 'com.example.ilcarro.qa.tests'" />
+        <item itemvalue="Gradle.katyaQa26_ilCarro [regression]" />
         <item itemvalue="Gradle.CarCreationTests.testCarCreation" />
-        <item itemvalue="Gradle.LoginTest.testLogin" />
         <item itemvalue="Gradle.LoginTest.testLogin" />
       </list>
     </recent_temporary>
