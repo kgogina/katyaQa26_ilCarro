@@ -2,18 +2,20 @@ package com.example.ilcarro.qa.tests;
 
 import com.example.ilcarro.qa.application.ApplicationManager;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 
 public class TestBase {
 
-    protected ApplicationManager app = new ApplicationManager();
+    protected static ApplicationManager app = new ApplicationManager();
 
-    @BeforeClass
+    @BeforeSuite
     public void setUp() {
         app.start();
     }
 
-    @AfterMethod(enabled = false)
+    @AfterSuite
     public void tearDown() {
         app.stop().quit();
     }

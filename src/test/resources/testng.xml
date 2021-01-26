@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression" verbose="1" >
+        <test name="Regression">
+        <classes>
+            <class name="com.example.ilcarro.qa.tests.RegistrationTest"/>
+            <class name="com.example.ilcarro.qa.tests.LoginTest"/>
+            <class name="com.example.ilcarro.qa.tests.CarCreationTests"/>
+            <class name="com.example.ilcarro.qa.tests.LogoutTest"/>
+        </classes>
+    </test>
+</suite>
