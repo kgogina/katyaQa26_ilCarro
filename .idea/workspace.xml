@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc6445f9-7e67-4126-874e-8747dba59626" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/application/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/application/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/application/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/application/HelperBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +51,7 @@
       <recent name="com.example.ilcarro.qa" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'katyaQa26_ilCarro.test'">
+  <component name="RunManager" selected="Gradle.LoginTest.testLogin">
     <configuration name="CarCreationTests.testCarCreation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -156,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tests in 'katyaQa26_ilCarro.test'" />
+        <item itemvalue="Gradle.LoginTest.testLogin" />
         <item itemvalue="Gradle.Tests in 'com.example.ilcarro.qa.tests'" />
+        <item itemvalue="Gradle.Tests in 'katyaQa26_ilCarro.test'" />
         <item itemvalue="Gradle.katyaQa26_ilCarro [regression]" />
         <item itemvalue="Gradle.CarCreationTests.testCarCreation" />
-        <item itemvalue="Gradle.LoginTest.testLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -186,16 +189,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/LogoutTest.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
