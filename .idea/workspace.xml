@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc6445f9-7e67-4126-874e-8747dba59626" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/google.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/application/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/application/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/application/UserHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/application/UserHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/CarCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/CarCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/LogoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ilcarro/qa/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +47,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Trello_26_Katya" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.ilcarro.qa.application" />
       <recent name="com.example.ilcarro.qa" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kgogi\Documents\GitHub\katyaQa26_ilCarro\src\test\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.LoginTest">
+  <component name="RunManager" selected="Gradle.LogoutTest">
     <configuration name="LoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -68,12 +80,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTest.testLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTest.testLoginDataProvider" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.example.ilcarro.qa.tests.LoginTest.testLogin&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.example.ilcarro.qa.tests.LoginTest.testLoginDataProvider&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -89,12 +101,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'com.example.ilcarro.qa.tests'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTest.testLoginDataProviderCsv" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.example.ilcarro.qa.tests.*&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.example.ilcarro.qa.tests.LoginTest.testLoginDataProviderCsv&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -110,12 +122,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'katyaQa26_ilCarro.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTest.testLoginSanity" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests *" />
+        <option name="scriptParameters" value="--tests &quot;com.example.ilcarro.qa.tests.LoginTest.testLoginSanity&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -131,34 +143,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="katyaQa26_ilCarro [regression]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LogoutTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;com.example.ilcarro.qa.tests.LogoutTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="regression" />
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LogoutTest" />
         <item itemvalue="Gradle.LoginTest" />
-        <item itemvalue="Gradle.LoginTest.testLogin" />
-        <item itemvalue="Gradle.Tests in 'com.example.ilcarro.qa.tests'" />
-        <item itemvalue="Gradle.Tests in 'katyaQa26_ilCarro.test'" />
-        <item itemvalue="Gradle.katyaQa26_ilCarro [regression]" />
+        <item itemvalue="Gradle.LoginTest.testLoginDataProviderCsv" />
+        <item itemvalue="Gradle.LoginTest.testLoginDataProvider" />
+        <item itemvalue="Gradle.LoginTest.testLoginSanity" />
       </list>
     </recent_temporary>
   </component>
